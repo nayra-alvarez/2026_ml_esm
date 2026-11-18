@@ -5,8 +5,12 @@ __pycache__/
 .venv/
 venv/
 env/
-.ipynb_checkpoints/
+
+object-store.os-api.cci1.ecmwf.int/
 *.csv
+!requirements*.csv
+
+.ipynb_checkpoints/
 
 lightning_logs/
 checkpoints/
@@ -16,3 +20,6 @@ checkpoints/
 
 .env
 .climetlab/
+
+.vscode/
+.idea/
